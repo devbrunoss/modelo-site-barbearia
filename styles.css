@@ -2315,3 +2315,8 @@ img[src=""] { display: none; }
         opacity: 1;
     }
 }
+
+/* Animações do hero: curtas e em sequência (tudo pronto em ~1s) */
+.hero-logo    { animation: logoFadeIn 0.6s ease-out 0s forwards; }
+.hero-tagline { animation: gentleFadeIn 0.6s ease-out 0.2s forwards; }
+.hero-buttons { animation: gentleFadeIn 0.6s ease-out 0.4s forwards; }
